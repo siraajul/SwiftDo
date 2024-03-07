@@ -9,10 +9,11 @@ import SwiftUI
 import FirebaseCore
 
 @main
-struct YourApp: App {
+struct SwiftDoApp: App {
     init(){
         FirebaseApp.configure()
     }
+    
   var body: some Scene {
     WindowGroup {
       NavigationView {
