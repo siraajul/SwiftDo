@@ -34,6 +34,7 @@
 		1817C9E92B9BB92C0001E811 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1817C9E82B9BB92C0001E811 /* FirebaseRemoteConfigSwift */; };
 		1817C9EB2B9BB92C0001E811 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1817C9EA2B9BB92C0001E811 /* FirebaseStorage */; };
 		1817C9ED2B9BB92C0001E811 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 1817C9EC2B9BB92C0001E811 /* FirebaseStorageCombine-Community */; };
+		1817C9F32B9BBA870001E811 /* LoginScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817C9F22B9BBA870001E811 /* LoginScreenshot.png */; };
 		187C6DED2B9A13EC00739FFC /* SwiftDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C6DEC2B9A13EC00739FFC /* SwiftDoApp.swift */; };
 		187C6DEF2B9A13EC00739FFC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C6DEE2B9A13EC00739FFC /* MainView.swift */; };
 		187C6DF12B9A13EE00739FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187C6DF02B9A13EE00739FFC /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1817C9F22B9BBA870001E811 /* LoginScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreenshot.png; sourceTree = "<group>"; };
 		187C6DE92B9A13EC00739FFC /* SwiftDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C6DEC2B9A13EC00739FFC /* SwiftDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDoApp.swift; sourceTree = "<group>"; };
 		187C6DEE2B9A13EC00739FFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1817C9F12B9BBA7A0001E811 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				1817C9F22B9BBA870001E811 /* LoginScreenshot.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		187C6DE02B9A13EC00739FFC = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +149,7 @@
 		187C6DEB2B9A13EC00739FFC /* SwiftDo */ = {
 			isa = PBXGroup;
 			children = (
+				1817C9F12B9BBA7A0001E811 /* Screenshot */,
 				18AA2CB82B9A6C0800EF99F6 /* Other */,
 				18AA2CB72B9A6B4B00EF99F6 /* Models */,
 				18AA2CB62B9A691000EF99F6 /* ViewModels */,
@@ -305,6 +316,7 @@
 				187C6DF42B9A13EE00739FFC /* Preview Assets.xcassets in Resources */,
 				187C6DF12B9A13EE00739FFC /* Assets.xcassets in Resources */,
 				18AA2CC12B9A6E0000EF99F6 /* GoogleService-Info.plist in Resources */,
+				1817C9F32B9BBA870001E811 /* LoginScreenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
