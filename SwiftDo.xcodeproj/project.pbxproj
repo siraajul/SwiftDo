@@ -133,7 +133,6 @@
 		187C6DE02B9A13EC00739FFC = {
 			isa = PBXGroup;
 			children = (
-				1817C9B42B9BB7540001E811 /* Screenshot */,
 				187C6DEB2B9A13EC00739FFC /* SwiftDo */,
 				187C6DEA2B9A13EC00739FFC /* Products */,
 			);
@@ -150,6 +149,7 @@
 		187C6DEB2B9A13EC00739FFC /* SwiftDo */ = {
 			isa = PBXGroup;
 			children = (
+				1817C9B42B9BB7540001E811 /* Screenshot */,
 				18AA2CB82B9A6C0800EF99F6 /* Other */,
 				18AA2CB72B9A6B4B00EF99F6 /* Models */,
 				18AA2CB62B9A691000EF99F6 /* ViewModels */,
