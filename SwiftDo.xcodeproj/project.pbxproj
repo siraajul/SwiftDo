@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1817C9B02B9BB3AB0001E811 /* LogInScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817C9AF2B9BB3AB0001E811 /* LogInScreen.png */; };
 		187C6DED2B9A13EC00739FFC /* SwiftDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C6DEC2B9A13EC00739FFC /* SwiftDoApp.swift */; };
 		187C6DEF2B9A13EC00739FFC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C6DEE2B9A13EC00739FFC /* MainView.swift */; };
 		187C6DF12B9A13EE00739FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187C6DF02B9A13EE00739FFC /* Assets.xcassets */; };
@@ -54,9 +55,11 @@
 		18AA2CDB2B9A794000EF99F6 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2CDA2B9A794000EF99F6 /* LoginViewViewModel.swift */; };
 		18AA2CDD2B9A794D00EF99F6 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2CDC2B9A794D00EF99F6 /* RegisterViewViewModel.swift */; };
 		18AA2CDF2B9A795E00EF99F6 /* SwiftDoItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2CDE2B9A795E00EF99F6 /* SwiftDoItemViewViewModel.swift */; };
+		18AA2CE22B9B519F00EF99F6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2CE12B9B519F00EF99F6 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1817C9AF2B9BB3AB0001E811 /* LogInScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogInScreen.png; path = ../../../../LogInScreen.png; sourceTree = "<group>"; };
 		187C6DE92B9A13EC00739FFC /* SwiftDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C6DEC2B9A13EC00739FFC /* SwiftDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDoApp.swift; sourceTree = "<group>"; };
 		187C6DEE2B9A13EC00739FFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		18AA2CDA2B9A794000EF99F6 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		18AA2CDC2B9A794D00EF99F6 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		18AA2CDE2B9A795E00EF99F6 /* SwiftDoItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDoItemViewViewModel.swift; sourceTree = "<group>"; };
+		18AA2CE12B9B519F00EF99F6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1817C9AE2B9BB38C0001E811 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				1817C9AF2B9BB3AB0001E811 /* LogInScreen.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		187C6DE02B9A13EC00739FFC = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +149,7 @@
 		187C6DEB2B9A13EC00739FFC /* SwiftDo */ = {
 			isa = PBXGroup;
 			children = (
+				1817C9AE2B9BB38C0001E811 /* ScreenShots */,
 				18AA2CB82B9A6C0800EF99F6 /* Other */,
 				18AA2CB72B9A6B4B00EF99F6 /* Models */,
 				18AA2CB62B9A691000EF99F6 /* ViewModels */,
@@ -157,6 +170,7 @@
 		18AA2CB52B9A690400EF99F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18AA2CE02B9B518700EF99F6 /* Login */,
 				187C6DEE2B9A13EC00739FFC /* MainView.swift */,
 				18AA2CC22B9A71A400EF99F6 /* ProfileView.swift */,
 				18AA2CC42B9A71D000EF99F6 /* SwiftDoView.swift */,
@@ -199,6 +213,14 @@
 				187C6DEC2B9A13EC00739FFC /* SwiftDoApp.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		18AA2CE02B9B518700EF99F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2CE12B9B519F00EF99F6 /* Header.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +316,7 @@
 				187C6DF42B9A13EE00739FFC /* Preview Assets.xcassets in Resources */,
 				187C6DF12B9A13EE00739FFC /* Assets.xcassets in Resources */,
 				18AA2CC12B9A6E0000EF99F6 /* GoogleService-Info.plist in Resources */,
+				1817C9B02B9BB3AB0001E811 /* LogInScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +337,7 @@
 				18AA2CCB2B9A723C00EF99F6 /* RegisterView.swift in Sources */,
 				18AA2CCF2B9A784200EF99F6 /* User.swift in Sources */,
 				18AA2CC52B9A71D000EF99F6 /* SwiftDoView.swift in Sources */,
+				18AA2CE22B9B519F00EF99F6 /* Header.swift in Sources */,
 				18AA2CD12B9A785E00EF99F6 /* SwiftDoItem.swift in Sources */,
 				18AA2CDB2B9A794000EF99F6 /* LoginViewViewModel.swift in Sources */,
 				187C6DED2B9A13EC00739FFC /* SwiftDoApp.swift in Sources */,

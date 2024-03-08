@@ -8,30 +8,41 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State var email = ""
+    @State var password = ""
+    
     var body: some View {
         VStack{
             //Header
-            ZStack{
-                RoundedRectangle(cornerRadius: 0)
-                    .foregroundColor(Color.pink)
-                    .rotationEffect(Angle(degrees: 14))
-                VStack{
-                    Text("SwfitDo")
-                        .font(.system(size: 50))
-                        .foregroundColor(Color.white)
-                        .bold()
-                    Text("Get Things Done !")
-                        .font(.system(size: 30))
-                        .foregroundColor(Color.white)
-                }
-                .padding(.top,10)
-            }
-            .frame(width: UIScreen.main.bounds.width*3, height: 315)
-            .offset(y:-100)
+            Header()
 
             //Login Form
-            
+            Form{
+                TextField("Email Address", text: $email)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                SecureField("Password", text: $password)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                
+                Button{
+                    //Attempt LogIn
+                }label: {
+                    ZStack{
+                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(Color.blue)
+                        Text("Log In")
+                            .foregroundColor(Color.white)
+                            .bold()
+                    }
+                }
+            }
             //Create Account
+            VStack{
+                Text("New User ? ")
+                Button("Create New Account"){
+                    //Show Registration
+                }
+            }
+            
         Spacer()
         }
     }
