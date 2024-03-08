@@ -12,38 +12,40 @@ struct LoginView: View {
     @State var password = ""
     
     var body: some View {
-        VStack{
-            //Header
-            Header()
+        NavigationView{
+            VStack{
+                //Header
+                Header()
 
-            //Login Form
-            Form{
-                TextField("Email Address", text: $email)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                SecureField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                
-                Button{
-                    //Attempt LogIn
-                }label: {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(Color.blue)
-                        Text("Log In")
-                            .foregroundColor(Color.white)
-                            .bold()
+                //Login Form
+                Form{
+                    TextField("Email Address", text: $email)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
+                    Button{
+                        //Attempt LogIn
+                    }label: {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                                .foregroundColor(Color.blue)
+                            Text("Log In")
+                                .foregroundColor(Color.white)
+                                .bold()
+                        }
                     }
                 }
-            }
-            //Create Account
-            VStack{
-                Text("New User ? ")
-                Button("Create New Account"){
-                    //Show Registration
+                //Create Account
+                VStack{
+                    Text("New User ? ")
+                    NavigationLink(
+                        "Create New Account", destination: RegisterView()
+                    )
                 }
+                
+            Spacer()
             }
-            
-        Spacer()
         }
     }
 }
